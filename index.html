@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sellerpage</title>
+</head>
+<body>
+    <form onsubmit="submitdetails(event)">
+   <lable>Selling Price:</lable> 
+   <input type="number" id="sprice" name="sprice">
+   <lable>Product Name:</lable> 
+   <input type="text" id="pname" name="pname">
+   <input type="submit" value="Add Product"><br>
+   <h1>Products</h1>
+   <ul id="user"></ul>
+   <h3 id="total">Total value of products:</h>
+
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
